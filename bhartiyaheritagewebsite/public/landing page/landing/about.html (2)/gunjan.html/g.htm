@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Paragraph Beside Each Other</title>
+    <style>
+        /* Container for image and paragraph */
+        .image-item {
+            display: flex;            /* Flex container */
+            align-items: center;      /* Vertically center the content */
+            gap: 20px;                /* Space between the image and the paragraph */
+            margin: 20px 0;           /* Add some margin around the container */
+        }
+
+        /* Style for the image */
+        .image-item img {
+            width: 200px;             /* Set image width */
+            height: auto;             /* Maintain aspect ratio */
+        }
+
+        /* Style for the paragraph */
+        .image-item p {
+            font-size: 1rem;
+            line-height: 1.6;
+            flex: 1;                  /* Allow paragraph to take remaining space */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-item">
+        <img src="tajmahal.jpg" alt="Cultural Heritage Image 3">
+        <p>Historical Significance:
+            The Red Fort was constructed between 1638 and 1648 by the Mughal Emperor Shah Jahan, who is also known for commissioning the construction of the Taj Mahal. The fort served as the main residence of the Mughal emperors for around 200 years, until the British colonial era.
+            The fort played a key role during India's struggle for independence, particularly in 1857, when it became the site of major uprisings against British rule. The British later took control of the fort after the Indian Rebellion of 1857.
+            The fort was the seat of Mughal power, and the Diwan-i-Aam (Hall of Public Audience) and Diwan-i-Khas (Hall of Private Audience) were used for official purposes by the emperor.</p>
+    </div>
+
+</body>
+</html>

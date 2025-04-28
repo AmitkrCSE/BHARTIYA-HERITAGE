@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhartiya Heritage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Styles (can be moved to a separate CSS file) */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(to right, #d32f2f, #f44336); /* Red gradient header */
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            section h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="py-12 text-center text-white bg-gradient-to-r from-red-700 to-red-500 shadow-md">
+        <div class="container">
+            <h1 class="text-4xl md:text-5xl font-bold mb-2 text-shadow-lg uppercase">Bhartiya Heritage</h1>
+            <p class="text-lg font-semibold">Preserving the Past, Inspiring the Future.</p>
+        </div>
+    </header>
+
+    <section id="about" class="py-16 px-4 max-w-6xl mx-auto">
+        <h2 class="text-3xl md:text-4xl text-center mb-8 text-red-700 relative pb-4">
+            About Cultural Heritage
+            <span class="absolute left-1/2 bottom-0 transform -translate-x-1/2 h-1 w-20 bg-red-500"></span>
+        </h2>
+        <p class="text-lg leading-relaxed">Cultural Heritage is the tapestry of tangible and intangible expressions that define a community's identity. From ancient monuments to vibrant traditions, it's the living legacy that connects us to our roots and guides our path forward. Explore the richness of our shared history and the stories that shape our world.</p>
+    </section>
+
+    <section id="gallery" class="py-16 px-4 max-w-6xl mx-auto">
+        <h2 class="text-3xl md:text-4xl text-center mb-8 text-red-700 relative pb-4">
+            Explore Our Heritage
+            <span class="absolute left-1/2 bottom-0 transform -translate-x-1/2 h-1 w-20 bg-red-500"></span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="rounded-lg overflow-hidden shadow-md transition-transform transform hover:translate-y-[-5px]">
+                <img src="lalkila.jpg" alt="Red Fort" class="w-full h-64 object-cover">
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-semibold mb-2 text-red-700">Red Fort, Delhi</h3>
+                    <p class="text-gray-700">A symbol of Mughal grandeur, this historic fort stands as a testament to India's rich architectural heritage.</p>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-md transition-transform transform hover:translate-y-[-5px]">
+                <img src="indiagate.jpg" alt="India Gate" class="w-full h-64 object-cover">
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-semibold mb-2 text-red-700">India Gate, Delhi</h3>
+                    <p class="text-gray-700">A war memorial that honors the soldiers of the British Indian Army, reflecting a poignant chapter in history.</p>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-md transition-transform transform hover:translate-y-[-5px]">
+                <img src="tajmahal.jpg" alt="Taj Mahal" class="w-full h-64 object-cover">
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-semibold mb-2 text-red-700">Taj Mahal, Agra</h3>
+                    <p class="text-gray-700">An epitome of love and architectural brilliance, this white marble mausoleum is a world wonder.</p>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-md transition-transform transform hover:translate-y-[-5px]">
+                <img src="malutitem..jpg" alt="Maluti Temples" class="w-full h-64 object-cover">
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-semibold mb-2 text-red-700">Maluti Temples, Jharkhand</h3>
+                    <p class="text-gray-700">A cluster of terracotta temples, showcasing intricate craftsmanship and rich cultural significance.</p>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-md transition-transform transform hover:translate-y-[-5px]">
+                <img src="paharimandir.jpg" alt="Pahari Mandir" class="w-full h-64 object-cover">
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-semibold mb-2 text-red-700">Pahari Mandir, Ranchi</h3>
+                    <p class="text-gray-700">A hilltop temple offering panoramic views and spiritual solace, deeply rooted in local tradition.</p>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-md transition-transform transform hover:translate-y-[-5px]">
+                <img src="jhonafall.jpg" alt="Jonha Falls" class="w-full h-64 object-cover">
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-semibold mb-2 text-red-700">Jonha Falls, Jharkhand</h3>
+                    <p class="text-gray-700">A scenic waterfall with historical and religious significance, offering both beauty and serenity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center py-4 mt-auto">
+        <p>&copy; 2025 Bhartiya Heritage. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

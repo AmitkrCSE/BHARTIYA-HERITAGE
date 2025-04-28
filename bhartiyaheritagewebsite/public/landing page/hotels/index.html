@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhartiya Heritage Discover Timeless Elegance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .logo {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+        }
+        .destinations h2, .experiences h2, .about h2, .contact h2 {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow-md sticky top-0 z-100">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="logo text-2xl font-bold text-gray-800">Bhartiya Heritage</div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#destinations" class="text-gray-700 hover:text-gray-900 transition duration-300">Destinations</a></li>
+                    <li><a href="#experiences" class="text-gray-700 hover:text-gray-900 transition duration-300">Experiences</a></li>
+                    <li><a href="#about" class="text-gray-700 hover:text-gray-900 transition duration-300">About Us</a></li>
+                    <li><a href="#contact" class="text-gray-700 hover:text-gray-900 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero bg-cover bg-center text-white py-64" style="background-image: url('/images/india.jpg');">
+        <div class="hero-content text-center max-w-3xl mx-auto px-4">
+            <h1 class="text-4xl font-bold mb-4 text-black text-amber-400">Immerse Yourself in History</h1>
+            <p class="text-lg mb-8 text-shadow-md text-shadow-md font-semibold">Discover meticulously restored heritage hotels offering unparalleled charm and authentic experiences.</p>
+            <a href="#destinations" class="btn bg-amber-500 text-white py-3 px-6 rounded-md hover:bg-amber-600 transition duration-300">Explore Destinations</a>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-10">Our Featured Destinations</h2>
+            <div class="destination-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="destination-item rounded-lg overflow-hidden shadow-md" style="background-image: url('/public/images/sea.jpg'); background-size: cover; background-position: center; height: 350px;">
+                    <div class="destination-overlay bg-black bg-opacity-50 h-full flex flex-col justify-end p-4">
+                        <h3 class="text-xl font-semibold text-white mb-2">Rajasthan Palaces</h3>
+                        <p class="text-gray-200 mb-4">Experience royal grandeur in majestic forts and palaces.</p>
+                        <a href="#" class="btn-small bg-amber-500 text-white py-2 px-4 rounded-md hover:bg-amber-600 transition duration-300 inline-block">View Hotels</a>
+                    </div>
+                </div>
+                <div class="destination-item rounded-lg overflow-hidden shadow-md" style="background-image: url('/public/images/tra.jpg'); background-size: cover; background-position: center; height: 350px;">
+                    <div class="destination-overlay bg-black bg-opacity-50 h-full flex flex-col justify-end p-4">
+                        <h3 class="text-xl font-semibold text-white mb-2">Italian Villas</h3>
+                        <p class="text-gray-200 mb-4">Indulge in the rustic elegance of Tuscan countryside villas.</p>
+                        <a href="#" class="btn-small bg-amber-500 text-white py-2 px-4 rounded-md hover:bg-amber-600 transition duration-300 inline-block">View Hotels</a>
+                    </div>
+                </div>
+                <div class="destination-item rounded-lg overflow-hidden shadow-md" style="background-image: url('/public/images/bgm.jpg'); background-size: cover; background-position: center; height: 350px;">
+                    <div class="destination-overlay bg-black bg-opacity-50 h-full flex flex-col justify-end p-4">
+                        <h3 class="text-xl font-semibold text-white mb-2">English Manors</h3>
+                        <p class="text-gray-200 mb-4">Step back in time with the refined charm of historic English manors.</p>
+                        <a href="#" class="btn-small bg-amber-500 text-white py-2 px-4 rounded-md hover:bg-amber-600 transition duration-300 inline-block">View Hotels</a>
+                    </div>
+                </div>
+                <div class="destination-item rounded-lg overflow-hidden shadow-md" style="background-image: url('/public\landing page\hotels\istockphoto-119926339-612x612.jpg'); background-size: cover; background-position: center; height: 350px;">
+                    <div class="destination-overlay bg-black bg-opacity-50 h-full flex flex-col justify-end p-4">
+                        <h3 class="text-xl font-semibold text-white mb-2">Moroccan Riads</h3>
+                        <p class="text-gray-200 mb-4">Discover the exotic beauty of traditional Moroccan riads.</p>
+                        <a href="#" class="btn-small bg-amber-500 text-white py-2 px-4 rounded-md hover:bg-amber-600 transition duration-300 inline-block">View Hotels</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiences" class="experiences py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-10">Unforgettable Experiences</h2>
+            <div class="experience-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="experience-item bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+                    <img src="\landing page\hotels\usculinaryjourneys-fnbcuisinecordwell-picexperiencescottsdale16853458251685345839.webp" alt="Culinary Journey" class="rounded-md mb-4 w-full h-48 object-cover">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Culinary Journeys</h3>
+                    <p class="text-gray-600">Savor authentic local cuisine prepared by renowned chefs.</p>
+                </div>
+                <div class="experience-item bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+                    <img src="\landing page\hotels\image-85.png.webp" alt="Historical Tours" class="rounded-md mb-4 w-full h-48 object-cover">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Historical Tours</h3>
+                    <p class="text-gray-600">Explore ancient landmarks with expert local guides.</p>
+                </div>
+                <div class="experience-item bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+                    <img src="\landing page\hotels\2022-0919-Biltmore-Spa-0610-F-1.jpg" alt="Wellness Retreats" class="rounded-md mb-4 w-full h-48 object-cover">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Wellness Retreats</h3>
+                    <p class="text-gray-600">Relax and rejuvenate with traditional spa treatments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10">About Bhartiya Heritage</h2>
+            <p class="text-gray-700 text-lg max-w-2xl mx-auto">We curate a collection of the world's most enchanting heritage hotels, offering travelers a chance to experience history firsthand. Our commitment to preserving cultural heritage ensures that each stay is a unique and memorable journey.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-10">Contact Us</h2>
+            <p class="text-gray-600 text-center mb-8">For inquiries and bookings, please reach out to our team.</p>
+            <form class="max-w-md mx-auto flex flex-col space-y-6">
+                <input type="text" placeholder="Your Name" required class="border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-amber-400">
+                <input type="email" placeholder="Your Email" required class="border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-amber-400">
+                <textarea placeholder="Your Message" required class="border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-amber-400"></textarea>
+                <button type="submit" class="btn bg-amber-500 text-white py-3 px-6 rounded-md hover:bg-amber-600 transition duration-300">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Bhartiya Heritage. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // You can add JavaScript for interactive features here
+        // For example, to add smooth scrolling to anchor links:
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

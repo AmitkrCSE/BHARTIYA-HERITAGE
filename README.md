@@ -1,4 +1,4 @@
-# 🌟 Bhartiya Heritage — Explore, Experience & Preserve India's Soul 🇮🇳
+# 🇮🇳 Bhartiya Heritage — Preserving India's Cultural Legacy 🌟
 
 > “A nation's culture resides in the hearts and in the soul of its people.” — Mahatma Gandhi
 
